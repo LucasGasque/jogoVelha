@@ -39,7 +39,7 @@ public class App {
             } else if(jogovelha.verificarGanhador('O')){
                 ganhou = true;
                 System.out.println("Parabéns, jogador 2 ganhou!");
-            } else if (jogovelha.jogada>9){
+            } else if (jogovelha.getJogada() > 9){
                 ganhou = true;
                 System.out.println("ninguém ganhou essa partida!");
             }
